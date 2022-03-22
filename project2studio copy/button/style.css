@@ -1,0 +1,64 @@
+
+.container { 
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+.minibutton {
+opacity: 0;
+width: 50px;
+    position: absolute;
+left: 198.8px;
+top: 400px;
+transform: translate(-50%, -50%);
+z-index: 4;
+}
+
+
+   .smallbutton {
+opacity: 0;
+width: 100px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+.smallbutton:hover + .minibutton{
+    opacity: 1;
+   }
+   .smallbutton:hover{
+    opacity: 0;
+   }
+     
+   .bigbutton{
+    width: 100px;
+    position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+}
+
+   .bigbutton:hover + .smallbutton{
+    opacity: 1;
+   }
+   .bigbutton:hover{
+    opacity: 0;
+   }
+.bigbutton2{
+    width: 50px;
+    position: absolute;
+left: 198.8px;
+top: 400px;
+transform: translate(-50%, -50%);
+z-index: 3;
+
+}
+.bigbutton2:hover + .minibutton{
+    opacity: 1;
+   }
+   .bigbutton2:hover{
+    opacity: 0;
+   }

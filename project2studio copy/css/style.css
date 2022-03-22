@@ -1,0 +1,248 @@
+
+body {
+  font-weight: 700;
+  font-size:50px;
+  padding:20px;
+  background-color: black;
+
+  
+
+}
+#Openenvelope{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ top: 90px;
+  left: 1px;
+  position: absolute;
+}
+
+
+
+.css-typing p {
+   color: red;
+  border-right: .15em solid orange;
+  font-family: chandler-42-regular, sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0.3em;
+
+
+}
+.css-typing p:nth-child(1) {
+  width: 25em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  top: 170px;
+  position: absolute;
+  left: 50px;
+  
+}
+
+.css-typing p:nth-child(2) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type2 2.5s steps(40, end);
+  animation: type2 2.5s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  top: 190px;
+  position: absolute;
+  left: 50px;
+   
+  
+}
+
+
+
+.css-typing p:nth-child(3) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type3 2.5s steps(40, end);
+  animation: type3 2.5s steps(40, end);
+   -webkit-animation-delay: 4.4s;
+  animation-delay: 4.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  top: 210px;
+  position: absolute;
+  left: 50px;
+  
+}
+.css-typing p:nth-child(4) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type4 2.5s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type4 2.5s steps(40, end), blink .5s step-end infinite alternate;
+   -webkit-animation-delay: 6.5s;
+  animation-delay: 6.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  top: 230px;
+  position: absolute;
+  left: 50px;
+ 
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+   99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes  type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+#key:hover{
+  animation: shake 0.5s infinite;
+}
+@keyframes shake {
+  0%{transform: translate(1px,1px) rotate(0deg);}
+  10%{transform: translate(-1px,-2px) rotate(-1deg);}
+  20%{transform: translate(-3px,0px) rotate(1deg);}
+  30%{transform: translate(3px,2px) rotate(0deg);}
+  40%{transform: translate(1px,-1px) rotate(1deg);}
+  50%{transform: translate(-1px,2px) rotate(-1deg);}
+  60%{transform: translate(-3px,1px) rotate(0deg);}
+  70%{transform: translate(3px,1px) rotate(-1deg);}
+  80%{transform: translate(-1px,-1px) rotate(1deg);}
+  90%{transform: translate(1px,2px) rotate(0deg);}
+  100%{transform: translate(1px,-2px) rotate(-1deg);}
+}
+#key{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ top: 290px;
+  left: 170px;
+  position: absolute;
+
+}
+.MrSteward{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ top: 260px;
+  left: 264px;
+  position: absolute;
+
+}

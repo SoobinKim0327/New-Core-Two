@@ -1,0 +1,99 @@
+p {
+	font-family: TimesNewRoman, serif;
+	font-size: 60px;
+	color: white;
+}
+#Title{
+  left: 220px;
+  position: absolute;
+  top: 10px;;
+}
+#check{
+
+  left: 60px;
+  position: absolute;
+  top: 290px;
+}
+#check: hover{
+  left: 60px;
+  position: absolute;
+  top: 290px;
+}
+#no{
+
+  left: 800px;
+  position: absolute;
+  top: 320px;
+}
+#no: hover{
+  left: 800px;
+  position: absolute;
+  top: 320px;
+}
+#Yes{
+  left: 250px;
+  position: absolute;
+  top: 320px;;
+}
+#Notatall{
+  left: 950px;
+  position: absolute;
+  top: 350px;;
+}
+#yellow{
+  left: 50px;
+  position: absolute;
+  top: 1650px;;
+}
+#orange{
+  left: 200px;
+  position: absolute;
+  top:1200px;;
+}
+#green{
+  left: 400px;
+  position: absolute;
+  top: 500px;;
+}
+#purple{
+  left: 400px;
+  position: absolute;
+  top: 2350px;;
+}
+#blue{
+  left: 100px;
+  position: absolute;
+  top: 2700px;;
+}
+#red{
+  left: 400px;
+  position: absolute;
+  top: 3450px;;
+}
+#pink{
+  left: 50px;
+  position: absolute;
+  top: 3950px;;
+}
+#Please{
+  left: 200px;
+  position: absolute;
+  top: 50px;;
+}
+#Doll1{
+  left: 90px;
+  position: absolute;
+  top: 730px;;
+}
+#Doll2{
+  left: 1100px;
+  position: absolute;
+  top: 1870px;;
+}
+#Doll3{
+  left: 1150px;
+  position: absolute;
+  top: 4200px;;
+}
+
+
