@@ -1,0 +1,184 @@
+/* load your fonts here with @font-face */
+@font-face {
+  font-family: 'IBMPlexSans-Regular';
+  src: url('../starter-code/fonts/IBMPlexSans-Regular.ttf');
+ 
+}
+@font-face {
+  font-family: 'IBMPlexSans-Bold';
+  src: url('../starter-code/fonts/IBMPlexSans-Bold.ttf'); 
+ 
+}
+body {
+  font-family: 'IBM PlexSans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscale;
+    color: #111;
+    background-color: #FFF7EF  ;
+}
+
+h1{
+  font-size: 3rem; 
+  font-family: 'IBMPlexSans-Bold', sans-serif;
+  line-height: 1;
+  letter-spacing: -0.1rem;
+  margin-bottom: 0.15em;
+  opacity: 1;
+  color: #7A5B6C;
+}
+
+
+h2{
+    font-size: 1.6rem;
+    line-height: 1.25;
+    letter-spacing: -0.05rem;
+    color: #474745;
+}
+
+h3{
+  font-family: IBM PlexSans Bold;
+  color: #474746;
+  line-height: 1rem;
+  font-size: 1.2rem;
+    
+}
+/* css reset */
+/* Andrew will explain what this is and why you want it next class */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.author {
+    text-decoration: none;
+    color:#705c68;
+}
+p.author::after {
+    content: '\2192';
+    padding: 1mm;
+}
+a:any-link {
+    background-image: linear-gradient(60deg, #d67a66, #705c68);
+    text-decoration: #705c68 underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.hr {
+    background-color:#d67a66;
+    height: 8px;
+}
+article p:first-of-type::first-letter {
+  float: left;
+  font-size: 2.35rem;
+  line-height: 1;
+  padding: 2px 5px 3px 5px;
+  margin-right: 7px;
+  margin-left: 1px;
+  border: 2px solid var #d67a66;;
+  background: var#f7e2da ;
+}
+.frenchie-pic {
+  float: right;
+  width: 200px;
+  height: 265px;
+  object-position: 39% 0;
+  object-fit: cover;
+  margin: 0 0 10px 10px;
+  border-radius: 4px;
+  box-shadow: 6px 6px #70a092;
+}
+
+blockquote {
+  letter-spacing: -0.015rem;
+  background: var(--accent-color-bg);
+  border-left: 3px solid var(--accent-color);
+  margin: 2em 3em;
+  padding: 2rem;
+  border-radius: 0 4px 4px 0;
+}
+
+blockquote:before {
+  color: var(--accent-color);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto 0 auto;
+}
+
+.flex-container div {
+  width: 30%;
+  min-width: 200px;
+  height: 100px;
+  background-color: var#F7E2DA;;
+  border: 2px solid var#D57966;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-container div:nth-of-type(2) {
+  margin: 2rem;
+}
+
+footer a {
+  border-bottom: none;
+  margin: 3rem 0;
+  display: block;
+}
+footer a::after {
+  content: ' ↑';
+}
+
+/* add styling here */
+.container {
+  width: 100%;
+  max-width: 48rem;
+  padding: 0 1rem;
+  margin: 10rem auto;
+}
+div:nth-child(1){
+    height: 4em;
+
+    padding-top: 2.5em; 
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+div:nth-child(2){
+    margin-top: 2em;
+
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+div:nth-child(3){
+    height: 4em;
+
+    padding-top: 2.5em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
