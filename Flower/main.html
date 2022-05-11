@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"/>
+ <title>JavaScript - Forms</title>
+ <script type="text/javascript">
+ // This tutorial requires a basic understanding of forms in HTML
+ // The form is created in the body section of the HTML page.
+ 
+ function writeName(){
+ var welcomeMsg = document.getElementById('Messagehasbeensent');
+
+ 
+ 
+ welcomeMsg.innerHTML = "Messagehasbeensent! "++".<br/>";
+ // We append .value to the end of name so that it sets the variable name
+ // to be equal to a property which is the value, not the object.
+ 
+ formContent.innerHTML = ""; // this removes the form text input box after name has been entered.
+ 
+ }
+ 
+ </script>
+ 
+</head>
+<body>
+ 
+<p id="welcome"></p>
+<form id="entername">
+ Write down your message:<input type="text" id="name"/><br/>
+ <input type="button" value="Send" onclick="Messagehasbeensent();"/>
+</form>
+ 
+</body>
+</html>
