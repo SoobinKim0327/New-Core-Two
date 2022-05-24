@@ -29,24 +29,7 @@ h1 {
    /* top: 0;
     left: 50px;*/
 }
-.image2 {
-    position: relative;
-    width: 400px;
-   /* top: 0;
-    left: 300px;*/
-}
-.image3 {
-    position: relative;
-    width: 400px;
-   /* top: 0;
-    left: 300px;*/
-}
-.image4 {
-    position: relative;
-    width: 400px;
-   /* top: 0;
-    left: 300px;*/
-}
+
 .image__img {
     display: block;
     width: 100%;
@@ -82,8 +65,11 @@ h1 {
 
 .image__overlay--primary {
     background: #FF009D;
-}
 
+}
+.image__overlay--buttonbutton{
+    background: black;
+}
 .image__overlay > * {
     transform: translateY(20px);
     transition: transform 0.25s;
